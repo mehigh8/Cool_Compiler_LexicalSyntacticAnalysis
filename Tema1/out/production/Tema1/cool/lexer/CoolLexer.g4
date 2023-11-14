@@ -45,24 +45,24 @@ tokens { ERROR }
 WS: [ \n\f\r\t]+ -> skip;
 
 // Keywords
-IF: 'if';
-THEN: 'then';
-ELSE: 'else';
-FI: 'fi';
-CLASS: 'class';
-INHERITS: 'inherits';
-WHILE: 'while';
-LOOP: 'loop';
-POOL: 'pool';
-CASE: 'case';
-OF: 'of';
-ESAC: 'esac';
-LET: 'let';
-IN: 'in';
-NEW: 'new';
-NOT: 'not';
-BOOL: 'true' | 'false';
-ISVOID: 'isvoid';
+IF: [iI][fF];
+THEN: [tT][hH][eE][nN];
+ELSE: [eE][lL][sS][eE];
+FI: [fF][iI];
+CLASS: [cC][lL][aA][sS][sS];
+INHERITS: [iI][nN][hH][eE][rR][iI][tT][sS];
+WHILE: [wW][hH][iI][lL][eE];
+LOOP: [lL][oO][oO][pP];
+POOL: [pP][oO][oO][lL];
+CASE: [cC][aA][sS][eE];
+OF: [oO][fF];
+ESAC: [eE][sS][aA][cC];
+LET: [lL][eE][tT];
+IN: [iI][nN];
+NEW: [nN][eE][wW];
+NOT: [nN][oO][tT];
+BOOL: ('t'[rR][uU][eE]) | ('f'[aA][lL][sS][eE]);
+ISVOID: [iI][sS][vV][oO][iI][dD];
 
 // Integers and identifiers
 fragment LETTER: [a-zA-Z];
@@ -84,7 +84,7 @@ STRING_NULL: '"'('\u0000' | '\\"' | ('\\' NEWLINE) | .)*? ( '"' { raiseError(get
 COLON: ':';
 SEMI : ';';
 COMMA : ',';
-ASSIGN : '=';
+ASSIGN : '<-';
 LPAREN : '(';
 RPAREN : ')';
 LBRACE : '{';
@@ -93,6 +93,16 @@ PLUS : '+';
 MINUS : '-';
 MULT : '*';
 DIV : '/';
-EQUAL : '==';
+EQUAL : '=';
 LT : '<';
 LE : '<=';
+RESULTS: '=>';
+DOT: '.';
+AT: '@';
+COMPL: '~';
+
+LINE_COMMENT: '--' .*? (NEWLINE | EOF) -> skip;
+BLOCK_COMMENT: '(*' (BLOCK_COMMENT | .)*? ('*)' { skip(); } | EOF { raiseError(getSourceName() + ", line " + getLine() + ":" + getCharPositionInLine() + ", Lexical error: EOF in comment"); });
+
+END_OF_COMMENT: '*)' { raiseError(getSourceName() + ", line " + getLine() + ":" + getCharPositionInLine() + ", Lexical error: Unmatched *)"); };
+INVALID_CHAR: . { raiseError(getSourceName() + ", line " + getLine() + ":" + getCharPositionInLine() + ", Lexical error: Invalid character: " + getText()); };

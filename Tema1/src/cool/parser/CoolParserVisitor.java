@@ -1,4 +1,4 @@
-// Generated from D:/UPB/CPL/Idea/Tema1/src/cool/parser\CoolParser.g4 by ANTLR 4.8
+// Generated from C:/CPL/Tema1CPL/Tema1/src/cool/parser/CoolParser.g4 by ANTLR 4.13.1
 
     package cool.parser;
 
@@ -18,4 +18,29 @@ public interface CoolParserVisitor<T> extends ParseTreeVisitor<T> {
 	 * @return the visitor result
 	 */
 	T visitProgram(CoolParser.ProgramContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link CoolParser#class}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitClass(CoolParser.ClassContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link CoolParser#feature}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitFeature(CoolParser.FeatureContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link CoolParser#formal}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitFormal(CoolParser.FormalContext ctx);
+	/**
+	 * Visit a parse tree produced by the {@code assign}
+	 * labeled alternative in {@link CoolParser#expr}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitAssign(CoolParser.AssignContext ctx);
 }
