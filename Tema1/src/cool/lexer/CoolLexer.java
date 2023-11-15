@@ -1,4 +1,4 @@
-// Generated from C:/CPL/Tema1CPL/Tema1/src/cool/lexer/CoolLexer.g4 by ANTLR 4.13.1
+// Generated from E:/Cursuri_ACS/An_4_Sem_1/CPL/Tema1CPL/Tema1/src/cool/lexer/CoolLexer.g4 by ANTLR 4.13.1
 
     package cool.lexer;	
 
@@ -130,7 +130,7 @@ public class CoolLexer extends Lexer {
 	            }
 	        }
 	        if (finalString.length() > 1024)
-	            raiseError(getSourceName() + ", line " + getLine() + ":" + getCharPositionInLine() + ", Lexical error: String constant too long");
+	            raiseError("String constant too long");
 	        else
 	            setText(finalString);
 	    }
@@ -185,23 +185,23 @@ public class CoolLexer extends Lexer {
 			 checkString(getText()); 
 			break;
 		case 1:
-			 raiseError(getSourceName() + ", line " + getLine() + ":" + getCharPositionInLine() + ", Lexical error: Unterminated string constant"); 
+			 raiseError("Unterminated string constant"); 
 			break;
 		case 2:
-			 raiseError(getSourceName() + ", line " + getLine() + ":" + getCharPositionInLine() + ", Lexical error: EOF in string constant"); 
+			 raiseError("EOF in string constant"); 
 			break;
 		}
 	}
 	private void STRING_NULL_action(RuleContext _localctx, int actionIndex) {
 		switch (actionIndex) {
 		case 3:
-			 raiseError(getSourceName() + ", line " + getLine() + ":" + getCharPositionInLine() + ", Lexical error: String contains null character"); 
+			 raiseError("String contains null character"); 
 			break;
 		case 4:
-			 raiseError(getSourceName() + ", line " + getLine() + ":" + getCharPositionInLine() + ", Lexical error: Unterminated string constant"); 
+			 raiseError("Unterminated string constant"); 
 			break;
 		case 5:
-			 raiseError(getSourceName() + ", line " + getLine() + ":" + getCharPositionInLine() + ", Lexical error: EOF in string constant"); 
+			 raiseError("EOF in string constant"); 
 			break;
 		}
 	}
@@ -211,21 +211,21 @@ public class CoolLexer extends Lexer {
 			 skip(); 
 			break;
 		case 7:
-			 raiseError(getSourceName() + ", line " + getLine() + ":" + getCharPositionInLine() + ", Lexical error: EOF in comment"); 
+			 raiseError("EOF in comment"); 
 			break;
 		}
 	}
 	private void END_OF_COMMENT_action(RuleContext _localctx, int actionIndex) {
 		switch (actionIndex) {
 		case 8:
-			 raiseError(getSourceName() + ", line " + getLine() + ":" + getCharPositionInLine() + ", Lexical error: Unmatched *)"); 
+			 raiseError("Unmatched *)"); 
 			break;
 		}
 	}
 	private void INVALID_CHAR_action(RuleContext _localctx, int actionIndex) {
 		switch (actionIndex) {
 		case 9:
-			 raiseError(getSourceName() + ", line " + getLine() + ":" + getCharPositionInLine() + ", Lexical error: Invalid character: " + getText()); 
+			 raiseError("Invalid character: " + getText()); 
 			break;
 		}
 	}

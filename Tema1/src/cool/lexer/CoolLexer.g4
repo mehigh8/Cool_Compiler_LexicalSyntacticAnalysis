@@ -36,7 +36,7 @@ tokens { ERROR }
             }
         }
         if (finalString.length() > 1024)
-            raiseError(getSourceName() + ", line " + getLine() + ":" + getCharPositionInLine() + ", Lexical error: String constant too long");
+            raiseError("String constant too long");
         else
             setText(finalString);
     }
@@ -74,11 +74,11 @@ INTEGER: DIGIT+;
 // String
 fragment NEWLINE: '\r'? '\n';
 STRING: '"'('\\"' | ('\\' NEWLINE) | ~'\u0000')*? ( '"' { checkString(getText()); }
-                                          | NEWLINE { raiseError(getSourceName() + ", line " + getLine() + ":" + getCharPositionInLine() + ", Lexical error: Unterminated string constant"); }
-                                          | EOF { raiseError(getSourceName() + ", line " + getLine() + ":" + getCharPositionInLine() + ", Lexical error: EOF in string constant"); });
-STRING_NULL: '"'('\u0000' | '\\"' | ('\\' NEWLINE) | .)*? ( '"' { raiseError(getSourceName() + ", line " + getLine() + ":" + getCharPositionInLine() + ", Lexical error: String contains null character"); }
-                                                  | NEWLINE { raiseError(getSourceName() + ", line " + getLine() + ":" + getCharPositionInLine() + ", Lexical error: Unterminated string constant"); }
-                                                  | EOF { raiseError(getSourceName() + ", line " + getLine() + ":" + getCharPositionInLine() + ", Lexical error: EOF in string constant"); });
+                                          | NEWLINE { raiseError("Unterminated string constant"); }
+                                          | EOF { raiseError("EOF in string constant"); });
+STRING_NULL: '"'('\u0000' | '\\"' | ('\\' NEWLINE) | .)*? ( '"' { raiseError("String contains null character"); }
+                                                  | NEWLINE { raiseError("Unterminated string constant"); }
+                                                  | EOF { raiseError("EOF in string constant"); });
 
 // Other symbols
 COLON: ':';
@@ -101,8 +101,10 @@ DOT: '.';
 AT: '@';
 COMPL: '~';
 
+// Comments
 LINE_COMMENT: '--' .*? (NEWLINE | EOF) -> skip;
-BLOCK_COMMENT: '(*' (BLOCK_COMMENT | .)*? ('*)' { skip(); } | EOF { raiseError(getSourceName() + ", line " + getLine() + ":" + getCharPositionInLine() + ", Lexical error: EOF in comment"); });
+BLOCK_COMMENT: '(*' (BLOCK_COMMENT | .)*? ('*)' { skip(); } | EOF { raiseError("EOF in comment"); });
 
-END_OF_COMMENT: '*)' { raiseError(getSourceName() + ", line " + getLine() + ":" + getCharPositionInLine() + ", Lexical error: Unmatched *)"); };
-INVALID_CHAR: . { raiseError(getSourceName() + ", line " + getLine() + ":" + getCharPositionInLine() + ", Lexical error: Invalid character: " + getText()); };
+// Other errors
+END_OF_COMMENT: '*)' { raiseError("Unmatched *)"); };
+INVALID_CHAR: . { raiseError("Invalid character: " + getText()); };
