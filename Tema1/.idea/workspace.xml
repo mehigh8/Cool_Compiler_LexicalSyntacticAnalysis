@@ -5,35 +5,86 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1690d737-ba58-4eb8-a53a-26ea7a0c6878" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tema1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/ASTNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/ASTNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/ASTVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/ASTVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Assign.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Assign.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Block.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Block.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/BoolExpr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/BoolExpr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Case.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Case.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/CaseBranch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/CaseBranch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Class.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Compiler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Compiler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Compiler$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Compiler$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Compiler$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Compiler$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Compiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Compiler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Compl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Compl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/ExplicitDispatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/ExplicitDispatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Expression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Expression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Feature.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Feature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Formal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Formal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/FuncFeature.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/FuncFeature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Id.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/If.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/If.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/ImplicitDispatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/ImplicitDispatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/IntegerExpr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/IntegerExpr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Isvoid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Isvoid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Let.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Let.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Local.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Local.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/MultDiv.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/MultDiv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/New.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/New.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Not.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Not.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Paren.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Paren.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/PlusMinus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/PlusMinus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Relational.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/Relational.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/StringExpr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/StringExpr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/VarFeature.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/VarFeature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/While.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/compiler/While.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/lexer/CoolLexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/lexer/CoolLexer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/lexer/CoolLexer.g4" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/lexer/CoolLexer.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolLexer.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/lexer/gen/CoolLexer.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/lexer/gen/CoolLexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/lexer/gen/CoolLexer.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$AssignContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$AssignContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$BlockContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$BlockContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$BoolContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$BoolContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$CaseBranchContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$CaseBranchContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$CaseContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$CaseContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$ClassContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$ClassContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$ComplContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$ComplContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$ExplicitDispatchContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$ExplicitDispatchContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$ExprContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$ExprContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$FeatureContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$FeatureContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$FormalContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$FormalContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$FuncFeatureContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$FuncFeatureContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$IdContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$IdContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$IfContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$IfContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$ImplicitDispatchContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$ImplicitDispatchContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$IntegerContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$IntegerContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$IsvoidContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$IsvoidContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$LetContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$LetContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$LocalContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$LocalContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$MultDivContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$MultDivContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$NewContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$NewContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$NotContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$NotContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$ParenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$ParenContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$PlusMinusContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$PlusMinusContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$ProgramContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$ProgramContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$RelationalContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$RelationalContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$StringContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$StringContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$VarFeatureContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$VarFeatureContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$WhileContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser$WhileContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser.g4" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser.interp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParser.tokens" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParserBaseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParserBaseListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParserBaseVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParserBaseVisitor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParserListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParserListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParserVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/parser/CoolParserVisitor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/tester/Tester1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/tester/Tester1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tema1/cool/tester/Tester1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema1/cool/tester/Tester1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cool/compiler/Compiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cool/compiler/Compiler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cool/lexer/CoolLexer.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/cool/lexer/CoolLexer.g4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cool/lexer/CoolLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cool/lexer/CoolLexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cool/parser/CoolLexer.tokens" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cool/parser/CoolParser.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/cool/parser/CoolParser.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cool/parser/CoolParser.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/cool/parser/CoolParser.interp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cool/parser/CoolParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cool/parser/CoolParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cool/parser/CoolParser.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/cool/parser/CoolParser.tokens" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cool/parser/CoolParserBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cool/parser/CoolParserBaseListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cool/parser/CoolParserBaseVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cool/parser/CoolParserBaseVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cool/parser/CoolParserListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cool/parser/CoolParserListener.java" afterDir="false" />
@@ -58,19 +109,26 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="1jeVoKa8mQMA7SMdsIEArqsoCEV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/cool/parser" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ACS/An_4_Sem_1/CPL/antlr-4.13.0-complete.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Cursuri_ACS\An_4_Sem_1\CPL\Tema1CPL\Tema1\src\cool\parser" />
@@ -135,6 +193,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
